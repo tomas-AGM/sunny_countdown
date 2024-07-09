@@ -52,6 +52,23 @@ body {
     font-size: 40px;
 }
 
+.Button_next_page {
+    background-color: #8d0707;
+    color: #FFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 1%;
+    font-size: 50px;
+    border-radius: 0.15em 0.15em 0.15em 0.15em;
+    border: 5px solid #6b0404;
+    margin: 3%;
+}
+
+.Button_next_page:hover {
+    background-color: #e43232;
+    padding: 1.2%;
+}
+
 .card {
   display: block;
   position: relative; 
