@@ -12,13 +12,38 @@ body {
 }
 
 .flip-clock-wrapper ul {
-    background: #333;
-    color: #fff;
+    background: #333 !important;
+    color: #fff !important;
     border-radius: 6px;
 }
 
+.flip-clock-wrapper ul li {
+    box-shadow: none !important;
+}
+
 .flip-clock-wrapper ul li a div div.inn {
-    background-color: #333;
-    color: #fff;
+    background-color: #333 !important;
+    color: #fff !important;
     border-radius: 6px;
+}
+
+.flip-clock-wrapper ul li a div div.inn:before,
+.flip-clock-wrapper ul li a div div.inn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.flip-clock-wrapper ul li a div div.inn:before {
+    top: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.flip-clock-wrapper ul li a div div.inn:after {
+    bottom: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
