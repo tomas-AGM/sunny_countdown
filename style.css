@@ -17,6 +17,8 @@ body {
     z-index: -1; /* Send the background image to the back */
 }
 
+
+
 .flip-clock {
   text-align: center;
   perspective: 400px;
@@ -32,8 +34,22 @@ body {
   margin: 0 5px;
 }
 
+.flip-clock__slot, .title {
+    color: rgb(200, 19, 49);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+.title {
+    font-size: 60px;
+    background-color: #FFF;
+    padding: 1%;
+    border-radius: 0.15em 0.15em 0.15em 0.15em;
+    border: 5px solid #6b0404;
+}
+
 .flip-clock__slot {
-  font-size: 2vw;
+    font-size: 40px;
 }
 
 .card {
@@ -51,7 +67,7 @@ body {
   display: block;
   height: 0.72em;
   color: #ccc;
-  background: #222;
+  background: #6b0404;
   padding: 0.25em 0.25em;
   border-radius: 0.15em 0.15em 0 0;
   backface-visibility: hidden;
@@ -66,7 +82,7 @@ body {
   top: 50%;
   left: 0;
   border-top: solid 1px #000;
-  background: #393939; 
+  background: #8d0707; 
   border-radius: 0 0 0.15em 0.15em; 
   pointer-events: none;
   overflow: hidden;
