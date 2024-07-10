@@ -8,6 +8,18 @@
   --outline-width: 0px;
 }
 
+iframe {
+  box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
+  background: #fffaf2;
+  color: #131212;
+  border-radius: 2rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 1.4em;
+  margin-bottom: 10%;
+  width: 70%;
+}
+
 body {
   background: #8ee5be; /*#131212*/
   color: rgb(99, 134, 123);
