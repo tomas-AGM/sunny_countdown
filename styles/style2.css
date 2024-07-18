@@ -124,8 +124,9 @@ h2 {
 
 p {
   font-weight: 300;
-  line-height: 1.42;
+  line-height: 0.5;
   font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Animation */

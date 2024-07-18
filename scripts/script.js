@@ -124,7 +124,7 @@ function getCountdownDate(dateString) {
   return new Date(dateString);
 }
 
-var inputDateString = 'July 10, 2024 00:18:30';//August 2, 2024 12:00:00
+var inputDateString = 'July 18, 2024 22:37:15';//August 2, 2024 12:00:00
 var deadline = getCountdownDate(inputDateString);
 
 var c = new Clock(deadline, function() {
